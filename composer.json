@@ -1,0 +1,32 @@
+{
+    "name": "stuartcusackie/sglide",
+    "license": "MIT",
+    "description": "A simple helper function for safely generating statamic glide image urls from fields as well as path strings.",
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 || ^8.0"
+    },
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ],
+        "psr-4": {
+            "stuartcusackie\\sglide\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Stuart Cusack",
+            "email": "stuart@stuartcusack.ie",
+            "homepage": "https://stuartcusack.ie",
+            "role": "President"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "stuartcusackie\\sglide\\ServiceProvider"
+            ]
+        }
+    }
+}
