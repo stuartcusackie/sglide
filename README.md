@@ -1,6 +1,6 @@
 # SCIE SGlide
 
-A simple helper function for safely generating Statamic-Glide image urls from fields as well as path strings.
+A simple helper function for safely generating Statamic glide image urls from fields as well as path strings.
 
 ## Installation
 
